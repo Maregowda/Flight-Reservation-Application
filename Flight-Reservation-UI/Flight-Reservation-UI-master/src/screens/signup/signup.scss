@@ -1,0 +1,23 @@
+.name, .password, .email, .phone, .confirm-password{
+    display: flex;
+    margin: 5px;
+
+    & .text{
+        margin-right: 10px;
+    }
+
+    & input{
+        margin-top: 5px;
+    }
+}
+
+.signup {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.successAlert {
+    color: green;
+}

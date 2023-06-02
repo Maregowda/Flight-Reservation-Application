@@ -1,0 +1,24 @@
+.username, .password{
+    display: flex;
+    margin: 5px;
+
+    & .text{
+        margin-right: 10px;
+    }
+
+    & input{
+        margin-top: 5px;
+    }
+}
+
+.login {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.alertError {
+    color: red;
+    border: black 10px;
+}

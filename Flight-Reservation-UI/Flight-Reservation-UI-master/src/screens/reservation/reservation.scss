@@ -1,0 +1,15 @@
+.fname, .lname, .mname, .email, .phone, .card, .card-name, .card-cvv, .card-expiry{
+    display: flex;
+    & .text{
+        margin-right: 10px;
+    }
+
+    & input{
+        margin-top: 5px;
+    }
+}
+
+h2{
+    text-align: center;
+}
+
